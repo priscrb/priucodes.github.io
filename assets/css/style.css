@@ -1,0 +1,199 @@
+body {
+  font-family: "IBM Plex Mono", sans-serif, monospace;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  margin-left: -250px;
+  margin-top: -150px;
+  width: 550px;
+  height: 300px;
+  color: #3c3c3c;
+}
+
+.logo a {
+  font-family: "Dosis", monospace;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
+  letter-spacing: 0.2em;
+}
+
+.main-box {
+  padding: 10px 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+.main-box a:hover,
+.github-box a:hover,
+.logo a:hover {
+  color: #51fa98;
+}
+
+ul {
+  list-style: none;
+  padding: 2px;
+  margin: 6px 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+ul li:first-child {
+  padding-left: none;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-text {
+  font-family: "Dosis", monospace;
+  font-size: 40px;
+  line-height: 38px;
+}
+
+.hashtag-box {
+  width: 100%;
+  background: #3c3c3c;
+  font-size: 14px;
+}
+
+.hashtag-box a:hover {
+  color: #9ffab4;
+}
+
+.github-box {
+  margin: 10px 0;
+  width: 100%;
+  border: 2px solid #3c3c3c;
+  padding: 2px 6px;
+}
+
+.github-box p {
+  width: 99%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: lowercase;
+  font-size: 15px;
+}
+
+.github-box p span.action {
+  font-weight: bold;
+  /*  text-transform: uppercase;*/
+}
+
+.box-links {
+  margin-top: 30px;
+}
+
+.box-links ul {
+  width: 40%;
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+}
+.box-links ul li {
+  width: 32px;
+  height: 32px;
+  background: #3c3c3c;
+  border-radius: 5%;
+  margin-right: 5px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.box-links ul li a {
+  display: inline-block;
+  width: 32px;
+  line-height: 32px;
+  text-indent: -9999px;
+}
+
+.box-links ul li a.github {
+  background: url(../img/github.png) no-repeat center center;
+}
+.box-links ul li a.resume {
+  background: url(../img/resume.png) no-repeat center center;
+}
+
+.box-links ul li a.twitter {
+  background: url(../img/twitter.png) no-repeat center center;
+}
+
+.box-links ul li a.linkedin {
+  background: url(../img/linkedin.png) no-repeat center center;
+}
+.box-links ul li a.email {
+  background: url(../img/email.png) no-repeat center center;
+}
+
+.blog-link {
+  float: right;
+  margin-top: 4px;
+  font-size: 18px;
+  margin-right: 2px;
+  text-transform: uppercase;
+}
+
+.blog-link a {
+  color: #ffffff;
+  background: #3c3c3c;
+  padding: 5px 26px;
+  border-radius: 5%;
+}
+
+.blog-link a:hover {
+  color: #3c3c3c;
+  background: #9ffab4;
+}
+
+@media (max-width: 960px) {
+  .page {
+    top: 15%;
+    right: 0;
+    left: 5%;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+    width: 90%;
+    height: 300px;
+    color: #3c3c3c;
+  }
+}
